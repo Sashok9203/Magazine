@@ -40,8 +40,8 @@ namespace Magazine_manager
             StringBuilder sb = new StringBuilder();
             sb.AppendLine("   *Article*");
             sb.AppendLine($"  \"{Name}\"");
-            sb.AppendLine($"  <<{Announce}>>");
-            sb.AppendLine($"SymbolsCount : {SymbolsCount}");
+            sb.AppendLine($"  {Announce}");
+            sb.AppendLine($"  SymbolsCount : {SymbolsCount}");
             return sb.ToString();
         }
     }
